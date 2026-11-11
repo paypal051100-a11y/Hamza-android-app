@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📸 معرض الصور"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اضغط الزر لمنح الصلاحيات والبدء"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▶  ابدأ"
+        android:textSize="18sp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp" />
+
+</LinearLayout>
